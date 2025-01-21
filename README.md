@@ -1,5 +1,7 @@
-> [!IMPORTANT]
-> https://github.com/FastFlags/FastFlags-Collective/
+> [!Спасибо за покупку]
+> https://funpay.com/users/7880803/
+
+<h1 aligh="center">Вам надо иметь любой переводчие если вы плохо знаете английский! (Со временем буду переводить)</h1>
 
 <h1 align="center"><img src="https://github.com/pizzaboxer/bloxstrap/raw/main/Images/Bloxstrap.png" width="28"/> Ultimate Fast Flags List</h1>
 
@@ -18,27 +20,16 @@
 * **Fast Flags >> Fast Flags Editor >> Import Json**
 * **Paste in the JSON**
 * **Then you should be good to go and save!**
-<img src="/assets/tutorial.gif" width="750"/>
 
- # List Navigation
-* **[Rendering](https://github.com/devstacking/Epic-Fast-Flags-List?tab=readme-ov-file#rendering)**
-* **[Graphical](https://github.com/devstacking/Epic-Fast-Flags-List?tab=readme-ov-file#graphical-settings)**
-* **[UI](https://github.com/devstacking/Epic-Fast-Flags-List?tab=readme-ov-file#user-interface)**
-* **[Textures](https://github.com/devstacking/Epic-Fast-Flags-List?tab=readme-ov-file#textures)**
-* **[Physics](https://github.com/devstacking/Epic-Fast-Flags-List?tab=readme-ov-file#physics)**
-* **[Other FFlags](https://github.com/devstacking/Epic-Fast-Flags-List?tab=readme-ov-file#other-fflags)**
-* **[Links](https://github.com/devstacking/Epic-Fast-Flags-List?tab=readme-ov-file#links)**
-
-<img src="https://github.com/devstacking/Epic-Fast-Flags-List/assets/106433721/0d16e448-4097-44ef-9eef-c445155a4bcb" width="888"/>
 
 ### 
 
 <h3 align="center">══════⊹⊱≼≽⊰⊹══════</h3>
 
-<h1 align="center">Rendering API</h1>
+<h1 align="center">Рендеринг API</h1>
 
 ### Metal
-###### MacOS Only
+###### MacOS Только.
 ```json
 { "FFlagDebugGraphicsPreferMetal": "True" }
 ```
@@ -59,9 +50,9 @@
 { "FFlagDebugGraphicsPreferD3D11": "True" }
 ```
 
-<h1 align="center">Graphical Settings <sup>& other stuff</sup></h1>
+<h1 align="center">Графические настройки И другие штуки</h1>
 
-### Smoother Terrain
+### Гладкая растительность (Иммею ввиду земля)
 ```json
 { "FFlagDebugRenderingSetDeterministic": "True" }
 ```
@@ -69,27 +60,25 @@
 ```json
 { "FFlagDebugLuaHeapDump": "True" }
 ```
-### Graphics Quality Level
+### Графический уровень качества (Можно поставить в настройках роблокса)
 ```json
 { "FIntRomarkStartWithGraphicQualityLevel": "1" }
 ```
-### Low Quallity Terrain Textures
-###### 4 for less quality 16, 32, 64 for higher quality
+### Низко качественные текстуры растительности (Иммею ввиду земля)
+###### 4 для меньшего качества 16, 32, 64 для большего качевства
 ```json
 { "FIntTerrainArraySliceSize": "4" }
 ```
-### Disable Shadows
+### Отключить тени
 ```json
 { "FIntRenderShadowIntensity": "0" }
 ```
-### Set Fps Limit
-{ "DFIntTaskSchedulerTargetFps": "9999" }
+### FPS Лимит
 ```json
 { "DFIntTaskSchedulerTargetFps": "9999" }
 ```
-### Enables Network Debug Tracker menu
-##### Instructions: CTRL+F8
-###### it's over.
+### Включает отладку сети треккеров.
+##### Инструкции: CTRL+F8
 ```json
 { "DFFlagDebugEnableInterpolationVisualizer": "True" }
 ```
@@ -132,12 +121,12 @@ High
 10 = 21
 ```
 
-### Low Render Distance
+### Низкая прорисовка дальности (Как в майнкрафте чанки.)
 ###### [FRM](https://github.com/devstacking/Epic-Fast-Flags-List?tab=readme-ov-file#frm-levels)
 ```json
 { "DFIntDebugRestrictGCDistance": "1" }
 ```
-### Disable Wind
+### Отключить ветер
 ```json
 { "FFlagGlobalWindRendering": "False", "FFlagGlobalWindActivated": "False" }
 ```
@@ -150,12 +139,12 @@ High
 ```json
 { "FIntRenderLocalLightFadeInMs": "0" }
 ```
-### Makes avatars shiny 
+### Делает аватар блестящем.
 ###### [everything goes black on <3] ***[DFIntDebugFRMQualityLevelOverride is there to set your graphics to 10, You can change it to anything above 3: [Click here to view](https://github.com/devstacking/Epic-Fast-Flags-List?tab=readme-ov-file#frm-levels) ]***
 ```json
 { "DFIntRenderClampRoughnessMax": "-640000000", "DFIntDebugFRMQualityLevelOverride": "21" }
 ```
-### Disable PostFX
+### Отключить пост обработку
 ```json
 { "FFlagDisablePostFx": "True" }
 ```
@@ -163,11 +152,11 @@ High
 ```json
 { "DFFlagDebugPauseVoxelizer": "True" }
 ```
-### Gray Sky
+### Серое небо
 ```json
 { "FFlagDebugSkyGray": "True" }
 ```
-### Disable Player Shadows
+### Отключить тени игрока
 ```json
 { "FIntRenderShadowIntensity": "0" }
 ```
@@ -199,7 +188,7 @@ High
 ```json
 { "DFIntPerformanceControlTextureQualityBestUtility": "-1" }
 ```
-### Remove Grass
+### Убрать траву
 ```json
 { "FIntFRMMinGrassDistance": "0", "FIntFRMMaxGrassDistance": "0", "FIntRenderGrassDetailStrands": "0", "FIntRenderGrassHeightScaler": "0" }
 ```
@@ -215,7 +204,7 @@ High
 ```
 <h1 align="center">User Interface</h1>
 
-### No Transparency V4 Menu **(2023)**
+### Не прозречное V4 меню (На кнопку esc) **(2023)**
 ```json
 { "FStringInGameMenuModernizationStickyBarForcedUserIds": "UserID" }
 ```
@@ -230,7 +219,7 @@ High
 { "DFIntMicroProfilerDpiScaleOverride": "100" }
 ```
 
-### V1 Menu
+### V1 меню
 ```json
 { "FIntNewInGameMenuPercentRollout3": "10000" }
 ```
@@ -535,12 +524,10 @@ High
 <h1 align="center">Links</h1>
 
 ### [Make Your Own Custom Roblox Textures](https://github.com/GoingCrazyDude/roblox-custom-textures/blob/main/README.md) *[Github Repo Link]*
-### [MEGA FLAG LIST](https://discord.com/channels/1099468797410283540/1139962301991104582/1170417533355036712) *[Bloxstrap Server]*
 ### [Bloxstrap](https://github.com/pizzaboxer/bloxstrap) *[Github Repo Link]*
 ### [NVIDIA Shaders Guide](https://github.com/catb0x/Roblox-Shaders-Guide) *[Github Repo Link]*
 ### [EnableAnselForRoblox](https://github.com/DED0026/EnableAnselForRoblox) *[Github Repo Link]*
-### [potato fflags](https://github.com/catb0x/Roblox-Potato-FFlags) *[Github Repo Link]*
-### [Fake Roblox Player Internal Patcher](https://github.com/devstacking/Roblox-Player-Internal-Patcher/releases/download/Release/FakeInternal.exe) *[Download Link]*
+
 
 ### Patched in 0, 608, 1, 6080485
 ```
@@ -561,11 +548,4 @@ FFlagSimIslandizerManager
 
 <h4 align="center">‧⁺̣˚̣̣*̣̩⋆̩·̩̩୨˚̣̣̣̣͙୧·̩̩⋆̩*̣̩˚̣̣⁺̣‧ You've reached the bottom of the list! ‧⁺̣˚̣̣*̣̩⋆̩·̩̩୨˚̣̣̣̣͙୧·̩̩⋆̩*̣̩˚̣̣⁺̣‧୨</h4>
 
-# List Information
-* Creation Date: 9:46 PM 08/25/2023 
-* Github Publish Date: 12/26/2023
-###### [<sup>OG</sup>](https://rentry.org/uffl/)
 
-[.](https://open.spotify.com/track/4rAg5bbrdZX00mXXhLvYXj)
-
-<h3 align="center">FastFlags 2024®<sup>eal</sup></h3>
